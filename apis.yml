@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://data.kaltimprov.go.id/api/3/action/package_search?rows=0
 common:
+  - type: DomainSecurity
+    url: security/data-kaltimprov-go-id-domain-security.yml
   - type: Website
     url: https://data.kaltimprov.go.id
   - type: Documentation
