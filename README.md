@@ -1,4 +1,4 @@
-# Satu Data Kalimantan Timur (data-kaltimprov-go-id)
+# Satu Data Kalimantan Timur
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,29 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Satu Data Kalimantan Timur is a provincial government open-data portal for Indonesia running **CKAN**, exposing a standardized catalog API over ~12,388 datasets.
+Satu Data Kalimantan Timur is a provincial government open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 12,388 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/data-kaltimprov-go-id/refs/heads/main/apis.yml)
+**Areas:** Open Data · CKAN · Data Catalog · DCAT · Government Data · Provincial Government · Indonesia
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=data-kaltimprov-go-id-api-evangelist&utm_content=repo)
+## Satu Data Kalimantan Timur on APIs.io
 
-## Type
-- **kind:** government  ·  **software:** CKAN
+Everything profiled for Satu Data Kalimantan Timur is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/data-kaltimprov-go-id/](https://apis.io/providers/data-kaltimprov-go-id/)** — or go straight to one of the APIs or properties below.
 
-## API
-- **Satu Data Kalimantan Timur CKAN Action API** — base `https://data.kaltimprov.go.id/api/3/action`. [Docs](https://docs.ckan.org/en/latest/api/) · [Portal](https://data.kaltimprov.go.id)
-- Live endpoint verified: `https://data.kaltimprov.go.id/api/3/action/package_search?rows=0` · ~12,388 datasets
+### APIs (1)
 
-## Plans, Rate Limits, FinOps
-- [Plans](plans/data-kaltimprov-go-id-plans-pricing.yml) — Free / open public data API.
-- [RateLimits](rate-limits/data-kaltimprov-go-id-rate-limits.yml) — No published limit; harvest politely.
-- [FinOps](finops/data-kaltimprov-go-id-finops.yml) — Public open data; no usage-based billing.
+- [Satu Data Kalimantan Timur CKAN Action API](https://apis.io/apis/data-kaltimprov-go-id/catalog/) — CKAN Action API for Satu Data Kalimantan Timur, a consistent JSON-over-HTTP interface over a catalog of 12,388 datasets. Standard actions include…
 
-## Timestamps
-- **Created:** 2026-06-04
-- **Modified:** 2026-06-04
+### Published properties
 
-## Maintainers
-**FN:** Kin Lane
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Email:** kin@apievangelist.com
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Data Kaltimprov Go Id Domain Security](https://apis.io/security/data-kaltimprov-go-id/data-kaltimprov-go-id-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Data Kaltimprov Go Id Plans Pricing](https://apis.io/plans/data-kaltimprov-go-id/data-kaltimprov-go-id-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Data Kaltimprov Go Id Rate Limits](https://apis.io/rate-limits/data-kaltimprov-go-id/data-kaltimprov-go-id-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Data Kaltimprov Go Id Finops](https://apis.io/finops/data-kaltimprov-go-id/data-kaltimprov-go-id-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://data.kaltimprov.go.id)
+- [Documentation](https://docs.ckan.org/en/latest/api/)
+
+## API Evangelist rating
+
+**Kin Score 9.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/data-kaltimprov-go-id/](https://apis.io/providers/data-kaltimprov-go-id/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Satu Data Kalimantan Timur: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/data-kaltimprov-go-id/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
